@@ -4,6 +4,7 @@
     {
         static void Main(string[] args)
         {
+            // Супер!
             PlayerMenu playerMenu = new PlayerMenu();
             playerMenu.PlayerMenuChooser();
         }

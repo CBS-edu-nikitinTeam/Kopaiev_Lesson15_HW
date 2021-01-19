@@ -2,7 +2,8 @@
 
 namespace Task_002
 {
-    class DocumentChooseLogic
+    class DocumentChooseLogic // Для класса так себе название. Document к примеру. А в методах ты уже
+                              // описываешь работу класса, его поведение.
     {
         public DocumentChooseLogic(string input)
         {
@@ -34,7 +35,7 @@ namespace Task_002
                 Console.WriteLine("Wrong Input\n");
                 return;
             }
-
+            // Красота!!!
             file.Create();
             file.Open();
             file.Change();
